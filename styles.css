@@ -1,0 +1,83 @@
+body{
+   background-color: rgb(17, 17, 17);
+}
+.post{
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.postheader{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span.icono-html{
+    height: 80%;
+   width: 0%;
+   align-self: center;
+   font-size: 1.7em;
+   margin: 4px 4px 0px 8px;
+}
+span.texto {
+   height: 80%;
+   width: 85%;
+   align-self: flex-start;
+   font-size: 1em;
+   padding: 8px 10px 0px 10px;
+}
+span.puntos{
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+}
+img{
+    width: 100%;
+    height: 60%;
+}
+.post-icons{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+span.corazon{
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.comentario{
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.avion{
+   height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.favorito{
+    margin: 8px 15px 8px 0px;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+.postbody{
+    width: 100%;
+    margin-bottom: 10vh;
+    font-size: 1em;
+}

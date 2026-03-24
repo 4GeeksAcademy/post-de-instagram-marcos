@@ -32,7 +32,7 @@ span.texto {
    width: 85%;
    align-self: flex-start;
    font-size: 1em;
-   padding: 8px 10px 0px 10px;
+   padding: 8px 10px 8px 10px;
 }
 span.puntos{
     margin: 8px 15px 8px 0px;
@@ -77,7 +77,8 @@ span.favorito{
     font-size: 1.5em;
 }
 .postbody{
-    width: 100%;
     margin-bottom: 10vh;
     font-size: 1em;
+    margin-left: 1vh;
+    margin-right: 1vh; 
 }
